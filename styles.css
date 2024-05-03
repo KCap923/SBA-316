@@ -1,9 +1,33 @@
-body {
+/* body {
 background-color: black;
-
 }
 
 h1 {
   color: whitesmoke;
+} */
+
+.card {
+  color: whitesmoke;
+background-color: #212529 !important;
+color: whitesmoke !important;
+border-radius: 0px !important;
+padding: 115px;
 }
 
+.form-waitlist {
+display: flex;
+flex-direction: column;
+margin: 1px;
+gap: 4px;
+margin-bottom: 20px;
+}
+
+.form-waitlist > label {
+font-size: 15px;
+}
+
+.form-waitlist > input {
+border: 1px solid white !important;
+font-size: 15px;
+padding: 5px;
+}
