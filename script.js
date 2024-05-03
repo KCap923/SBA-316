@@ -1,1 +1,1 @@
-alert("Cool Chicks Rise Up!!!")
+// alert("Cool Chicks Rise Up!!!")
