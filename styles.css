@@ -14,6 +14,50 @@ border-radius: 0px !important;
 padding: 50px;
 }
 
+
+.banner {
+  height: 30rem !important;
+  width: 90rem;
+  margin-top: -10rem !important;
+  border: 20px solid #212529;
+}
+
+h1 {
+animation: fadeInLeft !important;
+animation-duration: 4s !important;
+animation-delay: 0.5s !important;
+margin-top: -50px !important;
+font-size: 65px !important;
+font-weight: lighter !important;
+font-family: "Neonderthaw", cursive !important; 
+
+}
+
+
+h3 {
+  font-family: "Playfair", serif !important;
+  font-weight: bold !important;
+  animation: fadeIn 3s;
+  /* animation-iteration-count: infinite; */
+  animation-delay: 5.6s; 
+  display: flex !important;
+  text-align: left !important;
+}
+
+#intro {
+  display: flex !important;
+  text-align: center !important;
+  margin-top: 45px !important;
+
+}
+
+p {
+  font-family: "Sedan", serif !important;
+  font-size: 18px !important;
+  display: flex !important;
+  text-align: left !important;
+}
+
 .form-waitlist {
 display: flex;
 flex-direction: column;
@@ -26,7 +70,6 @@ margin-bottom: 20px;
 margin: 0;
 margin-bottom: 2rem;
 text-align: center;
-
 }
 
 
@@ -34,12 +77,15 @@ text-align: center;
 font-size: 15px;
 padding: 10px;
 margin-top: -25px;
+display: flex;
+text-align: left !important;
 }
 
 .form-waitlist > input {
 border: 1px solid white !important;
 font-size: 15px;
 padding: 5px;
+
 }
 
 .form-button {
@@ -48,3 +94,4 @@ margin-top: 2rem;
 margin-left: 52rem;
 
 }
+
