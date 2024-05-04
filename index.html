@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <!-- JS/CSS -->
-<script src="script.js"></script>
+<script defer src="script.js"></script>
 <link rel="stylesheet" href="styles.css">
 
 <!-- Bootstrap -->
@@ -66,7 +66,7 @@
 <div class="px-4 py-5 my-5 text-center">
 <h1 class="display-5 fw-bold text-body-emphasis" style=" color: black; text-decoration: underline red 3.5px;">Steve Will Fade It</h1>
 <br>
-  <img class="d-block mx-auto mb-4" src="images/Banner main.jpg" alt="" width="1090" height="295">
+  <img class="d-block mx-auto mb-4" id="banner" src="images/Banner main.jpg" alt="" width="1090" height="295">
 
   <div class="col-lg-6 mx-auto">
     <p class="lead mb-4" id="intro"> At only 16, I'm a self-taught barber with a passion for hairstyling and a talent that defies my age. <br> With dedication and innovation, I've mastered my craft, offering a personalized experience. <br> I can't wait to assist you in achieving your ideal style and meeting your unique needs! <br> Join the waitlist below to secure your spot and let me tailor your look to perfection.</p>
@@ -119,13 +119,17 @@
 <!-- Form  **********************************************************************************************************-->
 <!-- Name -->
 <br>
-<form waitlist-form>
+<form 
+action="javascript: alert('Success!');"
+name="waitlistForm"
+method="POST"
+id="form">
   
   <div class="card" data-step="1">
     <h3 class="form-title"> Join The Waitlist </h3>
     <div class="form-waitlist">
       <label for="name" > Name: </label>
-      <input type="text" required name="text" id="name" minlength="2" maxlength="20">
+      <input required type="text" name="text" id="name" minlength="2" maxlength="30">
     </div>
 <!-- Email -->
 <div class="form-waitlist">
@@ -138,7 +142,7 @@
   <input type="number" name="number" id="number">
 </div>
 
-  <button class="form-button" type="button" form="waitlist-form"> Submit </button>
+  <button class="form-submit-button" type="submit" form="waitlist-form"> Submit </button>
 </div>
 </form>
 
