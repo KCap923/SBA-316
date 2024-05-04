@@ -97,15 +97,25 @@ return emailVal;
 
 
 // Number Validation *************************************************
-
-function alert(message) {
-  const errorEl = document.getElementById('form-error');
-  errorEl.style.display = 'block';
-  errorEl.textContent = message;
-
-  setTimeout(() => {
-    errorEl.style.display = 'none';
-  }, 3000);
+function validateNumber() {
+if (number.value === '') {
+  alert("Phone numbers must be in the format ###-###-####.")
+  number.focus();
+  return false;
 }
+return number.value;
+}
+
+
+
+// function alert(message) {
+//   const errorEl = document.getElementById('form-error');
+//   errorEl.style.display = 'block';
+//   errorEl.textContent = message;
+
+//   setTimeout(() => {
+//     errorEl.style.display = 'none';
+//   }, 3000);
+// }
 
 
