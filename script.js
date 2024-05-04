@@ -1,4 +1,14 @@
-alert("Cool Chicks Rise Up!!!")
+// alert("Cool Chicks Rise Up!!!")
+
+
+
+// Create element:
+const para = document.createElement("p");
+para.innerText = "This is a Barbers Website!";
+
+
+document.body.appendChild(para);
+
 
 // Form Validation *************************************************
 
@@ -107,15 +117,15 @@ return number.value;
 }
 
 
+// Alert block *************************************************
+function alert(message) {
+  const errorEl = document.getElementById('form-error');
+  errorEl.style.display = 'block';
+  errorEl.textContent = message;
 
-// function alert(message) {
-//   const errorEl = document.getElementById('form-error');
-//   errorEl.style.display = 'block';
-//   errorEl.textContent = message;
-
-//   setTimeout(() => {
-//     errorEl.style.display = 'none';
-//   }, 3000);
-// }
+  setTimeout(() => {
+    errorEl.style.display = 'none';
+  }, 3000);
+}
 
 
