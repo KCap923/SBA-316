@@ -1,0 +1,5 @@
+Hi there my name is Krystle Capuano welcome my brothers barber website!!!
+
+My goal was to practice with forms and the BOM and DOM. I created a webpage for my brother who is a barber. He currently has a booksy account which contains his contact info, services and pricing, and location details. However the account looks very generic and I wanted to create something with a little more life. Although he does an amazing job he is NOT fully booked and does not have a waitlist. This was a great project to help me practice  form building. The form does not submit to anywhere at the moment. The social media links work as well as the booky link. Oh did I mention my brother is only 16 years old?? Can you imagine where he will be in 10 years!!! 
+
+Used Visual Studio Code, HTML, CSS, Bootstrap, Flexbox; and Chat GPT helped me summarize what he does in a professional manner.
